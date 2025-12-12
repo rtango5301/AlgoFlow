@@ -11,6 +11,10 @@ const eslintConfig = defineConfig([
     ".next/**",
     "out/**",
     "build/**",
+    // Legacy (before moving app to repo root):
+    "web/.next/**",
+    "web/out/**",
+    "web/build/**",
     "next-env.d.ts",
   ]),
 ]);
